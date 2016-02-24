@@ -1,0 +1,18 @@
+{
+  "name": "@raggedgenes/RG_Parser",
+  "version": "0.0.1",
+  "description": "File parsing utility for Ragged Genes",
+  "main": "rg_parser.js",
+  "dependencies": {
+    "striptags": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "fasta"
+  ],
+  "author": "Szabolcs Makai",
+  "license": "MIT"
+}
