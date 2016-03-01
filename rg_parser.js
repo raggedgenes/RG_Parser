@@ -11,7 +11,7 @@ Parser.parseFasta = function(string) {
 }
 //inner utilities
 function getAccession(desc) {
-	regAcc = new RegExp("gb|emb\\|[A-Za-z0-9(.)]*");
+	regAcc = new RegExp("(gb|emb)\\|[A-Za-z0-9(.)]*");
 	ret = desc.match(regAcc);
 	if (ret) return ret[0]; else return '';
 }
