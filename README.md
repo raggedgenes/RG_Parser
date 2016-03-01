@@ -12,4 +12,4 @@ Parser = require('rg_parser');
 var seqRGO = Parser.parseFasta(data);
 
 data contains one single fasta formatted sequence in text format. 
-It returns an object with a 'desc' and a 'sequence' property.
+It returns an object with 'accession', 'desc' and a 'sequence' properties.
