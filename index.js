@@ -1,0 +1,1 @@
+module.exports = require('./src/rg_parser.js');

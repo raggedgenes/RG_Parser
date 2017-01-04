@@ -1,10 +1,11 @@
 {
   "name": "@raggedgenes/RG_Parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "File parsing utility for Ragged Genes",
-  "main": "src/rg_parser.js",
+  "main": "index.js",
   "dependencies": {
-    "striptags": "^2.1.1"
+    "striptags": "^2.1.1",
+    "byline": "^4.2.1"
   },
   "devDependencies": {},
   "scripts": {
